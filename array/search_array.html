@@ -1,0 +1,27 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      // Searching an elemnt in an array without inbuilt function
+
+      let a = [1, 2, 3];
+      let item = 3;
+      let index = undefined;
+
+      for (let i = 0; i < a.length; i++) {
+        if (a[i] === item) {
+          index = i;
+          break;
+        }
+      }
+
+      console.log("index", index);
+    </script>
+  </head>
+  <body>
+    Searching
+  </body>
+</html>

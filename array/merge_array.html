@@ -1,0 +1,23 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      let array1 = [1, 2, 3];
+      let array2 = [12, 22, 32];
+      let arr1 = [1, 2, 3];
+      let arr2 = [12, 22, 32];
+
+      for (i = 0; i < array2.length; i++) {
+        array1[array2.length + i] = array2[i];
+      }
+      console.log("array1", array1);
+      console.log("[...arr1, ...arr2]", [...arr1, ...arr2]);
+    </script>
+  </head>
+  <body>
+    Merging
+  </body>
+</html>
